@@ -8,7 +8,7 @@ from pymongo import MongoClient
 DATABASE_NAME = '291db'
 
 
-def find_assignment_directory(start_path="~", dir_name="MongoDB-Tweet-Manager"):
+def find_directory(start_path="~", dir_name="MongoDB-Tweet-Manager"):
     """
     Recursively search for a directory named `dir_name` starting from `start_path`.
     Returns the first match found or raises an exception if not found.
@@ -114,9 +114,9 @@ def main():
     port = int(sys.argv[2])
     
     try:
-        assignment_dir = find_assignment_directory()
+        target_dir = find_directory()
         unique_id = str(uuid.uuid4())[:8] 
-        dbpath = os.path.join(assignment_dir, f"mongodb-data-{unique_id}")
+        dbpath = os.path.join(target_dir, f"mongodb-data-{unique_id}")
         logpath = os.path.join(dbpath, "mongodb.log")
         
         start_mongodb(port, dbpath, logpath)

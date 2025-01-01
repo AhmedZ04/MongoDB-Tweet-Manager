@@ -8,7 +8,7 @@ from pymongo import MongoClient
 DATABASE_NAME = '291db'
 
 
-def find_assignment_directory(start_path="~", dir_name="assignment-4-ibbymansoor"):
+def find_assignment_directory(start_path="~", dir_name="MongoDB-Tweet-Manager"):
     """
     Recursively search for a directory named `dir_name` starting from `start_path`.
     Returns the first match found or raises an exception if not found.

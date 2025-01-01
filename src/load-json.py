@@ -5,7 +5,7 @@ import time
 import os
 from pymongo import MongoClient
 
-DATABASE_NAME = '291db'
+DATABASE_NAME = 'TweetsDB'
 
 
 def find_directory(start_path="~", dir_name="MongoDB-Tweet-Manager"):

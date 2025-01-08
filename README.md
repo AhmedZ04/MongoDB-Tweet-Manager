@@ -17,4 +17,4 @@ Once the MongoDB database has been created and initialized, you may simply run t
 This code is designed for **Unix-like environments ONLY**. There is no guarantee of it working on Windows or on other operating systems without alterations to the load-json.py logic. 
 
 # Collaborators
-*Usaid Ahmed
+* Usaid Ahmed

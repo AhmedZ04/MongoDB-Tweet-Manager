@@ -15,3 +15,6 @@ Note: load-json.py will look for the "MongoDB-Tweet-Manager" folder in order to 
 Once the MongoDB database has been created and initialized, you may simply run the main program by typing "python3 tweet-manager.py" in the command line. Once the program runs, it will prompt you to enter the MongoDB port for the database you want to access. Type in the port that you ran "load-json.py" with here to enter the program and see the command dashboard. Make sure you have Python 3+ installed as the code logic is not designed to work with earlier versions of python.
 
 This code is designed for **Unix-like environments ONLY**. There is no guarantee of it working on Windows or on other operating systems without alterations to the load-json.py logic. 
+
+# Collaborators
+*Usaid Ahmed
